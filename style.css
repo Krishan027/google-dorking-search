@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #4285F4, #34A853);
+    margin: 0;
+}
+
+.container {
+    max-width: 420px;
+    margin: 100px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+}
+
+input, select, button {
+    width: 95%;
+    padding: 12px;
+    margin-top: 12px;
+    font-size: 15px;
+}
+
+button {
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #888;
+}

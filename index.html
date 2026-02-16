@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Dorking Smart Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Google Dorking Smart Search</h1>
+    <p>Find books, games, software using advanced Google search</p>
+
+    <input type="text" id="query" placeholder="Enter book / game / software name">
+
+    <select id="dork">
+        <option value="filetype:pdf">PDF File</option>
+        <option value="filetype:zip">ZIP File</option>
+        <option value="filetype:rar">RAR File</option>
+        <option value="filetype:doc">DOC File</option>
+        <option value="filetype:ppt">PPT File</option>
+        <option value="inurl:download">Download Link</option>
+    </select>
+
+    <button onclick="search()">Search on Google</button>
+
+    <footer>
+        <p>For educational and ethical use only</p>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
