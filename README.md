@@ -1,4 +1,4 @@
-Google Dorking Smart Search Tool
+Google Dorking Smart Search Tool.
 
 This project simplifies Google Dorking by allowing users to generate advanced search queries using a simple interface.
 
